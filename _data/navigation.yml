@@ -7,21 +7,12 @@
 main:
   - title: "CV"
     url: /cv/
-  
-  - title: "        "
-  - title: "        "
 
   - title: "Publications"
     url: /publications/  
   
-  - title: "        "
-  - title: "        "
-
   - title: "Projects"
     url: /projects/    
-        
-  - title: "        "
-  - title: "        "
 
   - title: "Blog Posts"
     url: /year-archive/

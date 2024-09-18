@@ -32,6 +32,11 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.collection == 'projects' and post.github_url %}
+            <a href="{{ post.github_url }}" target="_blank">
+              <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="30" height="30">
+            </a>
+      {% endif %}
     </h2>
     
     {% if post.read_time %}
@@ -39,7 +44,7 @@
     {% endif %}
 
         {% if post.collection == 'projects' %}
-          <p> {{ post.start_date |  start_date: "%Y%M%D" }} - {{ post.end_date |  start_date: "%Y%M%D" }}</p>
+          <p> {{ post.start_date |  start_date: "%Y" }} - {{ post.end_date |  start_date: "%Y" }}</p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

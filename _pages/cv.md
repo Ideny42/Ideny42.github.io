@@ -25,6 +25,7 @@ Honors and Awards
 * Gold Medal, Sichuan Collegiate Programming Contest (3rd place), 2023
 * Gold Medal, Sichuan Collegiate Programming Contest (3rd place), 2022
 
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
