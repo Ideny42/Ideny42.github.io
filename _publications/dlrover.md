@@ -3,7 +3,7 @@ title: "DLRover-RM: Resource Optimization for Deep Recommendation Models Trainin
 collection: publications
 category: manuscripts
 permalink: /publication/dlrover
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: ""
 date: 2024-10-1
 venue: 'PVLDB'
 paperurl: 'https://www.vldb.org/pvldb/vol17/p4130-tang.pdf'
