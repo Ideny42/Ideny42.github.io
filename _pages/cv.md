@@ -11,35 +11,19 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* B.S. in Computer Science, Sichuan University, 2026 (expected)
   
-Skills
+Honors and Awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Gold Medal, International Collegiate Programming Contest (ICPC) Jinan Regional Contest, 2022
+* Silver Medal, International Collegiate Programming Contest (ICPC) Nanjing Regional Contest, 2022 
+* Silver Medal, China Collegiate Programming Contest (CCPC), 2022
+* Gold Medal, CCF Collegiate Computer Systems and Programming Contest (CCSP), 2023 
+* Bronze Medal, International Collegiate Programming Contest East Asia Regional Final (ICPC-EC Final), 2023 
+* First Prize, The 15th Lanqiao Cup National Software Competition, 2023
+* Gold Medal, Sichuan Collegiate Programming Contest (2nd place), 2024
+* Gold Medal, Sichuan Collegiate Programming Contest (3rd place), 2023
+* Gold Medal, Sichuan Collegiate Programming Contest (3rd place), 2022
 
 Publications
 ======
@@ -47,18 +31,10 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
   
-Teaching
+Projects
 ======
-  <ul>{% for post in site.teaching reversed %}
+  <ul>{% for post in site.projects reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
