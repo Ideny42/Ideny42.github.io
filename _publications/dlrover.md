@@ -1,7 +1,7 @@
 ---
 title: "DLRover-RM: Resource Optimization for Deep Recommendation Models Training in the cloud"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/dlrover
 excerpt: ""
 date: 2024-10-1
