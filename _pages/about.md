@@ -1,11 +1,35 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to My Homepage"
 author_profile: true
-# redirect_from: 
-#   - /about/
-#   - /about.html
+redirect_from: 
+  - /about/
+  - /about.html
 ---
+
+
+Hello! I am Yiheng Du, a passionate researcher currently exploring the fascinating world of Computer Vision (CV). I am an undergraduate student majoring in computer science at Wuyuzhang Honour College in Sichuan University, with an expected graduation in June 2026.
+
+### Experience with Algorithm Competitions
+In the early days of my university journey, I participated in various algorithm competitions and achieved some results. However, feeling that I had reached my limits in this area, I decided to shift my focus towards academic research.
+
+### My Time in Systems Research
+I began my research journey in Systems (Sys), where I participated in several projects and achieved some notable results. However, the high resource demands of the Sys field, particularly for GPUs, and the limited resources available within my team meant that I rarely had the opportunity to conduct experiments independently. Much of my work was restricted to theoretical derivations, with many ideas unable to be tested in practice. This made the research process feel tedious and frustrating over time.
+
+### It's Time to Do Something Interesting
+Seeking a more dynamic and experimental research environment, I transitioned into Computer Vision (CV). I was immediately captivated by the mathematical foundations of generative models like diffusion models and their astonishing performance. My interest in CV grew as I discovered how advanced mathematical concepts, such as probability theory and stochastic processes, are used to explain model functionality. Although these models are often challenged and rebuilt—sometimes even failing to be proven by existing mathematical principles—this iterative process of discovery reflects the essence of scientific exploration.
+
+Much like the rapid advances in physics a century ago, we are now at the forefront of artificial intelligence and neural networks. We are deconstructing, understanding, and applying the principles of these networks, and I am eager to be part of this wave of innovation. I hope to contribute to the field, witnessing and shaping the future alongside others in this exciting era.
+
+
+## About me
+Feel free to check out my [CV](cv),  [Publications](Publications),  [Projects](projects), and [Blog Posts](year-archive) for more details about my work!
+
+## Contact:
+- Email:  yihengdu42@gmail.com
+- GitHub: [[Ideny42](https://github.com/Ideny42)]
+
+
 <!-- 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
