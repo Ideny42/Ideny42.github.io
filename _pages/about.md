@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-Hello! I am Yiheng Du, a passionate researcher currently exploring the fascinating world of Computer Vision (CV). I am an undergraduate student majoring in computer science at Wuyuzhang Honour College in Sichuan University, with an expected graduation in June 2026.
+Hello! I am Yiheng Du, a passionate researcher currently exploring the fascinating world of Computer Vision (CV). I am an undergraduate student majoring in Computer Science and Technology at Wuyuzhang Honour College/College of Computer Science in Sichuan University, with an expected graduation in June 2026.
 
 ### Experience with Algorithm Competitions
 In the early days of my university journey, I participated in various algorithm competitions and achieved some results. However, feeling that I had reached my limits in this area, I decided to shift my focus towards academic research.
