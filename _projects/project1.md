@@ -5,7 +5,7 @@ start_date: 2023.07
 end_date: 2024.07
 github_url: https://github.com/intelligent-machine-learning/dlrover
 excerpt: "DLRover: An Automatic Distributed Deep Learning System <br/><img src='/images/dlrover2.png' width='500' height='auto'>"
-cv: "<img src='/images/dlrover2.png' width='500' height='auto'>"
+cv: "DLRover makes the distributed training of large AI models easy, stable, fast and green. It can automatically train the Deep Learning model on the distributed cluster. It helps model developers to focus on model arichtecture, without taking care of any engineering stuff, say, hardware acceleration, distributed running, etc. <img src='/images/dlrover2.png' width='500' height='auto'>"
     
 
 ---
