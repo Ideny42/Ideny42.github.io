@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Sichuan University, 2026 (expected)
+* B.E. in Computer Science, Sichuan University, 2026 (expected)
   
 Honors and Awards
 ======
