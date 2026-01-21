@@ -1,0 +1,31 @@
+main:
+
+  - title: "AlignedGen: Aligning Style Across Generated Images"
+    authors: Jiexuan Zhang*, <strong>Yiheng Du*</strong>, Qian Wang, Weiqi Li, Yu Gu, Jian Zhang. (*Equal contribution)
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025. <strong>(CCF-A)</strong>
+    pdf: https://arxiv.org/pdf/2509.17088.pdf
+    code: https://github.com/Jiexuanz/AlignedGen
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:zwd4XBhOJFsJ:scholar.google.com/&output=citation&scisdr=Cn12RfwoEKusvLXCrXY:AHkA5jQAAAAAaXDEtXZnIbUg-2jk4-Erlj2-XjY&scisig=AHkA5jQAAAAAaXDEtV7jGZZmKEpG1eXzwV1dJtE&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    page: https://jiexuanz.github.io/AlignedGen/
+    image: ./assets/img/teaser_alignedgen.png
+    notes: ""
+
+  - title: "DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation"
+    authors: Jingqi Tian, <strong>Yiheng Du</strong>, Haoji Zhang, Yuji Wang, Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang.
+    # conference_short: 
+    conference: Under review.
+    pdf: https://arxiv.org/pdf/2512.20117.pdf
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:PsJi_0t4w_QJ:scholar.google.com/&output=citation&scisdr=Cn12RfwoEKusvLXDKgA:AHkA5jQAAAAAaXDFMgD2SJPvB-m1xkcrmf237Lg&scisig=AHkA5jQAAAAAaXDFMtMtK5CVknFAjyGlfliVMJw&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: ./assets/img/teaser_ddavs.png
+    notes: ""
+
+  - title: "DLRover-RM: Resource Optimization for Deep Recommendation Models Training in the Cloud"
+    authors: Qinlong Wang*, Tingfeng Lan*, Yinghao Tang, Bo Sang, Ziling Huang, <strong>Yiheng Du</strong>, Haitao Zhang, Jian Sha, Hui Lu, Yuanchun Zhou, Ke Zhang, Mingjie Tang.
+    conference_short: PVLDB
+    conference: Proceedings of the VLDB Endowment <strong>(PVLDB)</strong>, 2024. <strong>(CCF-A)</strong>
+    pdf: https://doi.org/10.14778/3685800.3685832
+    code: https://github.com/intelligent-machine-learning/dlrover
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:iX3jPl1WPg8J:scholar.google.com/&output=citation&scisdr=Cn12RfwoEKusvLXCbRc:AHkA5jQAAAAAaXDEdRetJFBe5VtQ4p3Gpk_WhYA&scisig=AHkA5jQAAAAAaXDEdYBB4eoI_s929jo85-Ia54I&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: ./assets/img/teaser_dlrover_rm.png
+    notes: ""

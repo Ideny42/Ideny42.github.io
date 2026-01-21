@@ -1,12 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+gem "jekyll", "~> 4.3"
 
-gem 'github-pages'
-gem 'tzinfo-data'
+# gem "webrick", "~> 1.8"
+
+gem "webrick", "~> 1.9"
+
+gem "rexml", "~> 3.4"
