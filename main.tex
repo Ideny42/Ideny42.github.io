@@ -1,0 +1,131 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Page & Fonts ----------
+\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\IfFontExistsTF{Noto Serif CJK SC}{\setCJKmainfont{Noto Serif CJK SC}}{\setCJKmainfont{Songti SC}}
+% \usepackage[hidelinks]{hyperref}
+\definecolor{linkblue}{RGB}{56, 132, 255} % 浅蓝，可再调
+\usepackage[colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, citecolor=linkblue]{hyperref}
+% Text links avoid a dependency on the FontAwesome system font.
+
+% ---------- Layout ----------
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.4em}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{6pt}
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlength{\emergencystretch}{2em}
+
+% ---------- Helpers ----------
+\newcommand{\sep}{\hspace{0.6em}{\large$\cdot$}\hspace{0.6em}}
+\newcommand{\dateright}[1]{\hfill {\small #1}}
+\newcommand{\role}[2]{\textbf{#1}\dateright{#2}}
+\newcommand{\org}[1]{\textit{#1}}
+\newcommand{\itemtitle}[1]{\textbf{#1}}
+\newcommand{\pdficon}{}   % 中空 PDF 图标
+\newcommand{\homeicon}{}     % 主页图标（也可用 \faHome）
+\newcommand{\githubicon}{}
+\newcommand{\mailicon}{}
+
+\begin{document}
+
+% ===================== Header =====================
+{\LARGE \textbf{杜毅衡 \quad Yiheng Du}}\\
+\href{mailto:yihengdu42@gmail.com}{\mailicon\ yihengdu42@gmail.com} \sep
+158-2735-5071 \sep
+\href{https://ideny42.github.io/}{\homeicon\ Homepage} \sep
+\href{https://github.com/Ideny42}{\githubicon\ GitHub} \sep
+\href{https://scholar.google.com/citations?user=718Y9mMAAAAJ}{Scholar}
+
+% ===================== Summary =====================
+% \section*{Summary}
+% 计算机系统与人工智能方向研究生，研究兴趣涵盖分布式系统、数据库系统与生成式模型。
+% 具备扎实的算法与系统基础，在 NeurIPS / PVLDB 等国际顶级会议发表论文，并拥有头部互联网公司系统研究实习经验。
+
+% ===================== Education =====================
+\section*{Education}
+\begin{itemize}[leftmargin=1.2em, itemsep=4pt, topsep=2pt]
+  \item \textbf{Peking University} \hfill \textit{Sept 2026 -- Jun 2029 (expected)}\\
+  \hspace*{1.2em} M.S. in \textit{Computer Science and Technology} \\
+  \hspace*{1.2em} \textit{Research Focus:} Reinforcement Learning, Agentic RL, Multimodal Learning
+  % \hspace*{1.2em} Research interest: xxx (optional)
+
+  \item \textbf{Sichuan University} \hfill \textit{Sept 2022 -- Jun 2026}\\
+  \hspace*{1.2em} B.S. in \textit{Computer Science and Technology} 
+\end{itemize}
+
+% ===================== Experience =====================
+\section*{Experience}
+
+\role{Research Intern}{Mar 2026 -- Present}\\
+\org{Tencent \sep Hunyuan \sep Foundation Model Department}
+\begin{itemize}
+  \item A main contributor to \href{https://github.com/Tencent-Hunyuan/UniRL}{\textbf{UniRL}}, a reinforcement learning framework for unified multimodal models. Primarily responsible for the \textbf{prompt enhancement (PE) trainer} and \textbf{agentic RL} components.
+  \item Developed RL workflows for prompt rewriting with feedback from generated images, and for multi-turn tool-use agents connecting trajectory rollout, reward evaluation, and policy updates.
+\end{itemize}
+
+\role{Research Intern}{From Mar 2025}\\
+\org{Peking University VILLA Lab}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/2509.17088}{\textbf{AlignedGen} (NeurIPS 2025)}: Equal-contribution first author. Led core method design, pipeline implementation, and main experiments for training-free style-consistent image generation.
+  \item \href{https://arxiv.org/abs/2512.20117}{\textbf{DDAVS} (ECCV 2026)}: In collaboration with THU IVG Lab, led core method design, end-to-end implementation, and major experiments for audio-visual segmentation with disentangled audio semantics and delayed bidirectional alignment.
+\end{itemize}
+
+\role{Research Intern}{Aug 2024 -- Feb 2025}\\
+\org{Ant Group \sep Data Intelligence Platform \& Services Department}
+\begin{itemize}
+  \item Contributed to \href{https://github.com/intelligent-machine-learning/dlrover}{\textbf{DLRover}} for efficient and reliable distributed training. Designed and implemented \textbf{Flash-checkpoint}, and conducted \textbf{Auto Accelerate} experiments and analysis for large-scale recommendation model training.
+\end{itemize}
+
+% ===================== Publications =====================
+\section*{Publications \small (* denotes equal contribution)}
+
+
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/2509.17088}{\pdficon\ \textbf{AlignedGen: Aligning Style Across Generated Images}}, 
+  \textcolor{red}{\textit{NeurIPS 2025} (CCF-A)}\\
+  Jiexuan Zhang*, \textbf{Yiheng Du}*, Qian Wang, Weiqi Li, Yu Gu, Jian Zhang.
+\end{itemize}
+
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/2512.20117}{\pdficon\ \textbf{Delayed Bidirectional Alignment via Disentangled Audio Semantics for Audio-Visual Segmentation}}, 
+  \textcolor{red}{\textit{ECCV 2026}}\\
+  Jingqi Tian, \textbf{Yiheng Du}, Haoji Zhang, Yuji Wang, Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang.
+\end{itemize}
+
+\begin{itemize}
+  \item \href{https://doi.org/10.14778/3685800.3685832}{\pdficon\ \textbf{DLRover-RM: Resource Optimization for Deep Recommendation Models Training in the Cloud}}, 
+  \textcolor{red}{\textit{VLDB 2024} (CCF-A)}\\
+  Qinlong Wang*, Tingfeng Lan*, Yinghao Tang, Bo Sang, Ziling Huang, \textbf{Yiheng Du}, Haitao Zhang, Jian Sha, Hui Lu, Yuanchun Zhou, Ke Zhang, Mingjie Tang.
+\end{itemize}
+
+
+
+% ===================== Awards =====================
+\section*{Awards}
+\begin{itemize}
+  \item \textcolor{red}{Gold Medal}, International Collegiate Programming Contest (ICPC)  \dateright{2022}
+  \item Bronze Medal, International Collegiate Programming Contest East Asia Regional Final (ICPC-EC Final) \dateright{2023}
+  \item \textcolor{red}{Gold Medal}, CCF Collegiate Computer Systems and Programming Contest (CCSP) \dateright{2023}
+  \item \textcolor{red}{Gold Medal}, ICPC China Sichuan Provincial Contest (2nd place in 2024; 3rd place in 2023 \& 2022)
+    \item Bronze Medal, National Olympiad in Informatics (NOI) \dateright{2021}
+  \item Silver Medal, Asia-Pacific Informatics Olympiad (APIO) \dateright{2021}
+\end{itemize}
+
+% ===================== Skills =====================
+\section*{Skills}
+\begin{itemize}
+  \item \itemtitle{Programming:} C/C++, Python, Java
+  \item \itemtitle{Machine Learning:} PyTorch, Transformers, Diffusion Models, Flow Matching, LLMs, RL, Agentic RL
+  \item \itemtitle{Systems:} Linux, Docker, Kubernetes, Distributed Systems, Databases
+\end{itemize}
+
+\end{document}

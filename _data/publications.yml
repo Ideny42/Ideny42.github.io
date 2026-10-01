@@ -11,10 +11,10 @@ main:
     image: ./assets/img/teaser_alignedgen.png
     notes: ""
 
-  - title: "DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation"
+  - title: "Delayed Bidirectional Alignment via Disentangled Audio Semantics for Audio-Visual Segmentation"
     authors: Jingqi Tian, <strong>Yiheng Du</strong>, Haoji Zhang, Yuji Wang, Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang.
-    # conference_short: 
-    conference: Under review.
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2026.
     pdf: https://arxiv.org/pdf/2512.20117.pdf
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:PsJi_0t4w_QJ:scholar.google.com/&output=citation&scisdr=Cn12RfwoEKusvLXDKgA:AHkA5jQAAAAAaXDFMgD2SJPvB-m1xkcrmf237Lg&scisig=AHkA5jQAAAAAaXDFMtMtK5CVknFAjyGlfliVMJw&scisf=4&ct=citation&cd=-1&hl=zh-CN
     image: ./assets/img/teaser_ddavs.png

@@ -1,0 +1,28 @@
+main:
+  - name: UniRL
+    logos:
+      - src: assets/img/brands/tencent.png
+        alt: Tencent
+        style: tencent
+      - src: assets/img/brands/hunyuan.png
+        alt: Tencent Hunyuan
+        style: hunyuan
+    organization: Tencent · Hunyuan
+    role: Research Intern
+    dates: Mar 2026 – Present
+    team: Foundation Model Department
+    url: https://github.com/Tencent-Hunyuan/UniRL
+    stars: ~1k
+    description: As a main contributor to UniRL, a reinforcement learning framework for unified multimodal models, I primarily developed the prompt enhancement (PE) trainer and agentic RL components, supporting image-feedback-driven prompt optimization and multi-turn tool-use training.
+  - name: DLRover
+    logos:
+      - src: assets/img/brands/ant-group.svg
+        alt: Ant Group
+        style: ant
+    organization: Ant Group
+    role: Research Intern
+    dates: Aug 2024 – Feb 2025
+    team: Data Intelligence Platform & Services Department
+    url: https://github.com/intelligent-machine-learning/dlrover
+    stars: 1k+
+    description: I contributed to DLRover, an automatic distributed deep learning system for efficient and reliable training. My work focused on designing and implementing Flash-checkpoint, along with Auto Accelerate experiments and analysis for large-scale recommendation model training.

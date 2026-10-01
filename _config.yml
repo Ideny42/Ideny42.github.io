@@ -4,8 +4,8 @@
 
 # Basic Information
 title: Yiheng Du (杜毅衡)
-position: B.S. Student (CS) · Incoming M.S. @ Peking University (2026)
-affiliation: Sichuan University
+position: M.S. Student in Computer Science
+affiliation: Peking University
 email: yihengdu42@gmail.com
 
 # Search Engine Optimization (SEO)
@@ -14,7 +14,7 @@ description: Academic homepage of Yiheng Du.
 canonical: https://ideny42.github.io/
 
 # Links (delete any you don't need)
-# google_scholar: https://scholar.google.com/citations?user=YOUR_ID
+google_scholar: https://scholar.google.com/citations?user=718Y9mMAAAAJ&hl=en
 cv_link: assets/files/cv.pdf
 github_link: https://github.com/Ideny42
 # linkedin: https://www.linkedin.com/in/YOUR_ID
