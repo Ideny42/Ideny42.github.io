@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am **Yiheng Du (杜毅衡)**, an M.S. student in Computer Science at **Peking University**, with a B.S. in Computer Science from **Sichuan University**.
+I am **Yiheng Du (杜毅衡)**, a Ph.D. student in Computer Science at **Peking University**, with a B.S. in Computer Science from **Sichuan University**.
 I work at the intersection of **generative modeling** and **multimodal perception**, with a focus on building practical and reliable methods.
 
 ---
@@ -16,7 +16,7 @@ I work at the intersection of **generative modeling** and **multimodal perceptio
 
 ## Education
 - **Sichuan University**, B.S. in Computer Science and Technology (Sept 2022 – Jun 2026)
-- **Peking University**, M.S. in Computer Science and Technology (Sept 2026 – Jun 2029 (expected))
+- **Peking University**, Ph.D. in Computer Science and Technology (Sept 2026 – Jun 2031 (expected))
 
 ---
 
