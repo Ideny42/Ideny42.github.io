@@ -12,7 +12,7 @@ main:
     notes: ""
 
   - title: "Delayed Bidirectional Alignment via Disentangled Audio Semantics for Audio-Visual Segmentation"
-    authors: Jingqi Tian, <strong>Yiheng Du</strong>, Haoji Zhang, Yuji Wang, Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang.
+    authors: Jingqi Tian*, <strong>Yiheng Du*</strong>, Haoji Zhang, Yuji Wang, Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang.
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2026.
     pdf: https://arxiv.org/pdf/2512.20117.pdf
